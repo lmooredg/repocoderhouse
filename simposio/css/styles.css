@@ -83,29 +83,7 @@ nav li a:hover {
 /*Fin navbar superior*/
 
 /* Inicio Inscripcion*/
-/*
-.inscripcion button {
-        background-color: #3d5286;
-        border: 0.1rem solid white;
-        border-radius: 10%;
-        padding: 1.5rem 3rem;
-        text-align: center;
-        display: inline-block;
-        font-size: 2rem;
-        transition: width 1s, height 1s;
-}
-.inscripcion button a {
-        text-decoration: none;
-        color: white;
-}
-.inscripcion button a:hover {
-     color: #3d5286;
-}
-.inscripcion button:hover {
-    background-color: white;
-    width: 20rem;
-    height: 10rem;
-} */
+
 .button {
     min-width: 20rem;
     min-height: 5rem;
