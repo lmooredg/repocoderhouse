@@ -1,0 +1,78 @@
+/* Inicio Header */
+
+header {
+    background-color: #3d5286;
+    color:white
+}
+
+/*Inicio Navbar*/
+.bg-navbar {
+    background-color: #3d5286;
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover {
+    background-color: white;    
+    font-weight: bold;
+    color: #3d5286;
+}
+
+/* Boton Header*/
+
+.btn-primary {
+    border:  0.1rem solid white;
+    background-color: #3d5286;
+    box-shadow: white;
+
+}
+
+/* Fin Boton Header*/
+
+/* Main - Todas las Pags*/
+/*  index.html*/
+
+.card {
+    border: none;
+}
+
+/*  inscripcion.html*/
+
+.select {
+    padding: 0.375rem 0.75rem;
+}
+
+/* Footer */
+
+.btn-outline-light {
+    border: none;
+}
+
+/*Fin Footer*/
+
+/* Botones */
+.btn-insc {
+    border: 0.2rem solid white!important;
+}
+
+.btn {
+    background-color: #3d5286;
+    color:white;
+    border: none;
+}
+.btn:hover {
+    color: #3d5286;
+    background-color: white;
+    border: 0.2rem solid #3d5286;
+}
+.btn-success {
+        color: #fff;
+        background-color: #3d5286;
+        border-color: white;
+    }
+/*Fin Botones*/
+
+
+
+

@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="sede.html">Sede</a>
@@ -41,50 +41,80 @@
           </div>
         </nav>
         <div class="container d-flex flex-column align-items-center pb-3 text-center">
-          <h4>Organiza: Colegio de Diseñadores de Buenos Aires</h3>
-          <p class="mb-0">Sumate a otros diseñadores para definir conocer más sobre
-            la cultura de diseño actual, corrientes de diseño bla bla bla.</p>
-           <p>20 a 25 de Noviembre - Bs. As. - Argentina</p>
-           <a class="btn btn-insc" href="inscripcion.html" role="button">Inscribite</a>
+          <h4>Inscribite a los 3 días de charlas</h3>
+            
+           <p>1 día - $150 / 2 días - $275 / 3 días - $400</p>
+           
         </section>
       </header>
 
       <main>
-        <div class="container px-4 py-5">
-          <div class="row py-5 row-cols-1 row-cols-lg-3 gx-3">
-            <!--Aca no me toma el "gutter" entre las columnas. No entiendo porque. Intente ponerlo con el container y en los divs que contienen los col pero nada. No entiendo el error.-->
-            <div class="card col">
-              <div>
-                <img src="img/sede.jpg" class="card-img-top" alt="...">  
+        <section class="">
+          <div class="container py-5">
+            <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-lg-8 col-xl-6">
+                <div class="card rounded-3">
+                  <img src="img/diseno.jpg" class="w-100" style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+                  <div class="card-body p-4 p-md-5">
+                    <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">Información de Inscripción</h3>
+        
+                    <form class="px-md-2">
+        
+                      <div class="form-outline mb-4">
+                        <input type="text" id="form-nombre" class="form-control" placeholder="Tú Nombre y Tú Apellido"/>
+                        <label class="form-label" for="Nombre y Apellido">Nombre y Apellido</label>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 mb-4">
+                          <div class="form-outline">
+                            <input type="text"class="form-control" placeholder="tucorreo@tuproveedor.xxx"/>
+                            <label for="email" class="form-label" place>Correo Electronico</label>
+                          </div>
+        
+                        </div>
+                        <div class="col-md-6 mb-4">
+                          <select class="select">
+                            <option value="Gráfico">Diseñador/a Gráfico</option>
+                            <option value="Multimedia">Diseñador/a Multimedia</option>
+                            <option value="Téxtil">Diseñador/a Textil</option>
+                            <option value="Industrial">Diseñador/a Industrial</option>
+                          </select>
+                          <label class="form-label" for="profesion">Profesión</label>
+        
+                        </div>
+                      </div>
+        
+                      <div class="mb-4">
+        
+                        <select class="select">
+                          <option value="150">1 día - $150</option>
+                          <option value="275">2 días - $275</option>
+                          <option value="400">3 días - $400</option>
+                        </select>
+        
+                      </div>
+        
+                      <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
+                        <div class="col-md-6">
+        
+                          <div class="form-outline">
+                            <input type="text" id="matricula" class="form-control" />
+                            <label class="form-label" for="matricula">Matricula</label>
+                          </div>
+        
+                        </div>
+                      </div>
+        
+                      <button type="submit" class="btn btn-success btn-lg mb-1">Inscribirse</button>
+        
+                    </form>
+        
+                  </div>
+                </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">Direct TV Arena</h5>
-                <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="sede.html" class="btn btn-primary">Ver más</a>
-             </div>
-            </div>
-            <div class="card col">
-              <div>
-                <img src="img/cronograma1.jpg" class="card-img-top" alt="...">  
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Cronograma</h5>
-                <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="cronograma.html" class="btn btn-primary">Ver más</a>
-             </div>
-            </div>
-            <div class="card col">
-              <div>
-                <img src="img/disertadores1.jpg" class="card-img-top" alt="...">  
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Disertadores</h5>
-                <p class="card-text">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-                <a href="disertadores.html" class="btn btn-primary">Ver más</a>
-             </div>
             </div>
           </div>
-        </div>
+        </section>
       </main>
 
       <footer class="bg-navbar text-center text-white">
