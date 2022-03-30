@@ -28,22 +28,48 @@ header {
 
 }
 
-/* Fin Boton Header*/
+/* Fin Boton Header */
 
-/* Main - Todas las Pags*/
-/*  index.html*/
+/* Main - Todas las Pags    */
 
+h2, h4 {
+    color: #3d5286;
+}
+
+
+h5 {
+    color: #3d5286;
+    font-variant: small-caps;
+}
+
+h6 {
+    color: #3d5286;
+    font-variant: small-caps;
+}
+
+.azul {
+    color:#3d5286
+}
+
+
+/*  index.html  */
 .card {
     border: none;
 }
 
-/*  inscripcion.html*/
+/*  inscripcion.html    */
 
 .select {
     padding: 0.375rem 0.75rem;
 }
 
-/* Footer */
+/*  sede.html   */
+
+
+
+/*  Fin Main    */
+
+/*  Footer  */
 
 .btn-outline-light {
     border: none;
