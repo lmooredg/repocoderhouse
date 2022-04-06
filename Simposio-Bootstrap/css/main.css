@@ -1,15 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0; }
+
 .bg-navbar {
   background-color: #3d5286;
   color: white; }
 
-nav ul li a {
-  color: white; }
-  nav ul li a:hover {
+nav {
+  font-family: "Open Sans", sans-serif; }
+  nav ul li a {
+    color: white !important; }
+    nav ul li a:hover {
+      color: #3d5286 !important;
+      background-color: white !important;
+      font-weight: bold; }
+
+.btn-insc {
+  border: 0.2rem solid white !important; }
+
+.btn {
+  background-color: #3d5286;
+  color: white;
+  border: none; }
+  .btn:hover {
+    background-color: white;
     color: #3d5286;
-    background-color: white; }
+    border: 0.2rem solid #3d5286; }
 
 .btn-primary {
   border: 0.1rem solid white;
   background-color: #3d5286;
   box-shadow: white; }
+  .btn-primary:hover {
+    background-color: white;
+    color: #3d5286; }
+
+header, h2, h4 {
+  background-color: #3d5286;
+  color: white; }
+
+#dashboard h5 {
+  color: #3d5286;
+  font-variant: small-caps; }
+
+#dashboard p {
+  color: #3d5286; }
+
+#dashboard .card {
+  border: none; }
+  #dashboard .card:hover {
+    box-shadow: 0 4px 20px -5px #3d5286;
+    top: -2rem; }
+
+.btn-footer {
+  border: none;
+  color: white; }
+  .btn-footer:hover {
+    color: #3d5286;
+    background-color: white; }

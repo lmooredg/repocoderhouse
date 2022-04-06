@@ -4,13 +4,15 @@
 }
 
 nav {
+    font-family: $fontMain;
     ul {
         li {
             a {
-                color: $secondColor;
+                color: $secondColor!important;
                 &:hover {
-                    color: $mainColor;
-                    background-color: $secondColor;
+                    color: $mainColor!important;
+                    background-color: $secondColor!important;
+                    font-weight: bold;
                 }
             }
         }

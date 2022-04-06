@@ -1,5 +1,47 @@
+.btn-insc {
+    border: 0.2rem solid $secondColor!important;
+    
+}
+
+.btn {
+    background-color: $mainColor;
+    color: $secondColor;
+    border: none;
+    &:hover {
+        background-color:$secondColor;
+        color: $mainColor;
+        border: 0.2rem solid $mainColor;
+    }
+}
+
 .btn-primary {
     border: 0.1rem solid white;
     background-color: $mainColor;
     box-shadow: $secondColor;
+    &:hover {
+        background-color:$secondColor;
+        color: $mainColor;
+    }
 }
+
+header, h2, h4 {
+    @include azul
+}
+
+#dashboard {
+    h5 {
+        color: $mainColor;
+        font-variant: small-caps;
+    }
+    p {
+        color: $mainColor;
+    }
+    .card {
+        border: none;
+            &:hover {
+                box-shadow: 0 4px 20px -5px $mainColor;
+                top: -2rem;
+        }
+    }
+}
+

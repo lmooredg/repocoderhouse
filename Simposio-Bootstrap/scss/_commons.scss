@@ -6,3 +6,10 @@ $secondColor:white;
 
 //sizing
 
+
+//Fondos
+
+@mixin azul($theme: $mainColor) {
+    background-color: $mainColor;
+    color: $secondColor;
+}
