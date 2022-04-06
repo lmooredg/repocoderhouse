@@ -1,3 +1,6 @@
-body {
-    background-color: green;
-}
+// imports
+@import "_commons.scss";
+@import "_fonts.scss";
+@import "_navbar.scss";
+@import "_content.scss";
+@import "_footer";

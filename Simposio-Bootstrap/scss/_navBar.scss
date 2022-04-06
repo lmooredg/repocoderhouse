@@ -1,0 +1,18 @@
+.bg-navbar {
+    background-color: $mainColor;
+    color: $secondColor;
+}
+
+nav {
+    ul {
+        li {
+            a {
+                color: $secondColor;
+                &:hover {
+                    color: $mainColor;
+                    background-color: $secondColor;
+                }
+            }
+        }
+    }
+}
