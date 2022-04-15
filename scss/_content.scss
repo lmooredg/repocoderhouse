@@ -1,12 +1,9 @@
-.btn-insc {
-    border: 0.2rem solid $secondColor!important;
-    
-}
-
 .btn {
     background-color: $mainColor;
     color: $secondColor;
     border: none;
+    padding: .5rem;
+    text-decoration: none;
     &:hover {
         background-color:$secondColor;
         color: $mainColor;
@@ -14,9 +11,16 @@
     }
 }
 
+.btn-insc {
+    @extend .btn;
+    border: 0.2rem solid $secondColor!important;
+    font-weight: 600
+    
+}
+
 .btn-primary {
-    border: 0.1rem solid white;
-    background-color: $mainColor;
+    @extend .btn;
+    border: 0.2rem solid white;
     box-shadow: $secondColor;
     &:hover {
         background-color:$secondColor;
@@ -40,8 +44,28 @@ header, h2, h4 {
         border: none;
             &:hover {
                 box-shadow: 0 4px 20px -5px $mainColor;
-                top: -2rem;
+                top: -1rem;
         }
     }
+}
+
+.card {
+    border: none;
+    &:hover {
+        box-shadow: 0 4px 20px -5px $mainColor;
+    } 
+}
+
+figcaption {
+    
+    @include blanco
+}
+
+.caja__title {
+    @include blanco
+}
+
+.card-title {
+    @include blanco
 }
 

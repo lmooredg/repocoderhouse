@@ -1,6 +1,5 @@
 .bg-navbar {
-    background-color: $mainColor;
-    color: $secondColor;
+    @include azul
 }
 
 nav {

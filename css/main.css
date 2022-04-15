@@ -16,21 +16,23 @@ nav {
       background-color: white !important;
       font-weight: bold; }
 
-.btn-insc {
-  border: 0.2rem solid white !important; }
-
-.btn {
+.btn, .btn-insc, .btn-primary, .btn-footer {
   background-color: #3d5286;
   color: white;
-  border: none; }
-  .btn:hover {
+  border: none;
+  padding: .5rem;
+  text-decoration: none; }
+  .btn:hover, .btn-insc:hover, .btn-primary:hover, .btn-footer:hover {
     background-color: white;
     color: #3d5286;
     border: 0.2rem solid #3d5286; }
 
+.btn-insc {
+  border: 0.2rem solid white !important;
+  font-weight: 600; }
+
 .btn-primary {
-  border: 0.1rem solid white;
-  background-color: #3d5286;
+  border: 0.2rem solid white;
   box-shadow: white; }
   .btn-primary:hover {
     background-color: white;
@@ -51,11 +53,25 @@ header, h2, h4 {
   border: none; }
   #dashboard .card:hover {
     box-shadow: 0 4px 20px -5px #3d5286;
-    top: -2rem; }
+    top: -1rem; }
 
-.btn-footer {
-  border: none;
-  color: white; }
-  .btn-footer:hover {
-    color: #3d5286;
-    background-color: white; }
+.card {
+  border: none; }
+  .card:hover {
+    box-shadow: 0 4px 20px -5px #3d5286; }
+
+figcaption {
+  background-color: white;
+  color: #3d5286; }
+
+.caja__title {
+  background-color: white;
+  color: #3d5286; }
+
+.card-title {
+  background-color: white;
+  color: #3d5286; }
+
+.btn-footer:hover {
+  color: #3d5286;
+  background-color: white; }

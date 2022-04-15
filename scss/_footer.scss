@@ -1,6 +1,5 @@
 .btn-footer {
-    border:none;
-    color: $secondColor;
+    @extend .btn;
     &:hover {
         color:$mainColor;
         background-color: $secondColor;

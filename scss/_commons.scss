@@ -7,9 +7,14 @@ $secondColor:white;
 //sizing
 
 
-//Fondos
+//Fondos y Tipografias
 
 @mixin azul($theme: $mainColor) {
     background-color: $mainColor;
     color: $secondColor;
+}
+
+@mixin blanco ($theme: $secondColor) {
+    background-color: $secondColor;
+    color: $mainColor
 }
