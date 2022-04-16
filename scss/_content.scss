@@ -51,6 +51,7 @@ header, h2, h4 {
 
 .card {
     border: none;
+    background-color: $mainColor03;
     &:hover {
         box-shadow: 0 4px 20px -5px $mainColor;
     } 
