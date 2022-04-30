@@ -9,28 +9,38 @@
 
 <url>
   <loc>https://lmooredg.github.io/repocoderhouse/</loc>
-  <lastmod>2022-04-13T23:16:45+00:00</lastmod>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://lmooredg.github.io/repocoderhouse/index.html</loc>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://lmooredg.github.io/repocoderhouse/sede.html</loc>
-  <lastmod>2022-04-13T23:16:45+00:00</lastmod>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lmooredg.github.io/repocoderhouse/cronograma.html</loc>
-  <lastmod>2022-04-13T23:16:45+00:00</lastmod>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lmooredg.github.io/repocoderhouse/disertadores.html</loc>
-  <lastmod>2022-04-13T23:16:45+00:00</lastmod>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://lmooredg.github.io/repocoderhouse/inscripcion.html</loc>
-  <lastmod>2022-04-13T23:16:45+00:00</lastmod>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lmooredg.github.io/repocoderhouse/404error.html</loc>
+  <lastmod>2022-04-30T23:09:14+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
