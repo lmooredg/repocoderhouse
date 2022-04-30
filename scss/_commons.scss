@@ -11,12 +11,14 @@ $mainColor03: #3d528630;
 //Fondos y Tipografias
 
 @mixin azul($theme: $mainColor) {
-    background-color: $mainColor;
     color: $secondColor;
+    background-color: $mainColor;
+    
 }
 
 @mixin blanco ($theme: $secondColor) {
+    color: $mainColor;
     background-color: $secondColor;
-    color: $mainColor
+    
 }
 

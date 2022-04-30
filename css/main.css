@@ -4,8 +4,8 @@
   margin: 0; }
 
 .bg-navbar {
-  background-color: #3d5286;
-  color: white; }
+  color: white;
+  background-color: #3d5286; }
 
 nav {
   font-family: "Open Sans", sans-serif; }
@@ -39,8 +39,8 @@ nav {
     color: #3d5286; }
 
 header, h2, h4 {
-  background-color: #3d5286;
-  color: white; }
+  color: white;
+  background-color: #3d5286; }
 
 #dashboard h5 {
   color: #3d5286;
@@ -57,21 +57,43 @@ header, h2, h4 {
 
 .card {
   border: none;
-  background-color: #3d528630; }
+  background-color: white; }
   .card:hover {
     box-shadow: 0 4px 20px -5px #3d5286; }
 
 figcaption {
-  background-color: white;
-  color: #3d5286; }
+  color: #3d5286;
+  background-color: white; }
 
 .caja__title {
-  background-color: white;
-  color: #3d5286; }
+  color: #3d5286;
+  background-color: white; }
 
 .card-title {
-  background-color: white;
+  color: #3d5286;
+  background-color: white; }
+
+#cronograma th {
+  color: #3d5286;
+  font-weight: 600; }
+
+#cronograma .th-title {
+  font-weight: 700; }
+
+#cronograma td {
+  color: #3d5286;
+  width: 40%; }
+
+#cronograma a {
+  text-decoration: none;
   color: #3d5286; }
+  #cronograma a:hover {
+    color: #3d528630; }
+
+#cronograma td h4 {
+  color: #3d5286;
+  background-color: transparent;
+  font-weight: 700; }
 
 .btn-footer:hover {
   color: #3d5286;

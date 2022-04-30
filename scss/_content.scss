@@ -1,3 +1,4 @@
+// Botones
 .btn {
     background-color: $mainColor;
     color: $secondColor;
@@ -28,10 +29,11 @@
     }
 }
 
+// titulos
 header, h2, h4 {
     @include azul
 }
-
+// Cards
 #dashboard {
     h5 {
         color: $mainColor;
@@ -51,7 +53,8 @@ header, h2, h4 {
 
 .card {
     border: none;
-    background-color: $mainColor03;
+    background-color: $secondColor
+    ;
     &:hover {
         box-shadow: 0 4px 20px -5px $mainColor;
     } 
@@ -69,4 +72,38 @@ figcaption {
 .card-title {
     @include blanco
 }
+
+// tablas cronograma
+
+#cronograma {
+        th {
+        color: $mainColor;
+        font-weight: 600;
+        }
+
+        .th-title {
+            font-weight: 700;
+        }
+
+        td {
+        color: $mainColor;        
+        width: 40%;
+        
+        }
+
+        a {
+        text-decoration: none;
+        color: $mainColor;
+            &:hover {
+                color: $mainColor03;
+            }
+        }
+        td h4 {
+            color: $mainColor;
+            background-color: transparent;
+            font-weight: 700;
+
+        }
+}
+
 
