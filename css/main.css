@@ -4,8 +4,8 @@
   margin: 0; }
 
 .bg-navbar {
-  color: white;
-  background-color: #3d5286; }
+  background-color: #3d5286;
+  color: white; }
 
 nav {
   font-family: "Open Sans", sans-serif; }
@@ -20,8 +20,8 @@ main {
   background-color: rgba(61, 81, 133, 0.1); }
 
 #disertadores p {
-  color: #3d5286;
-  background-color: white; }
+  background-color: white;
+  color: #3d5286; }
 
 .btn, .btn-insc, .btn-primary, .btn-footer {
   background-color: #3d5286;
@@ -43,11 +43,23 @@ main {
   box-shadow: white; }
   .btn-primary:hover {
     background-color: white;
-    color: #3d5286; }
+    color: #3d5286;
+    box-shadow: 0 4px 20px -5px #3d5286;
+    border-color: #3d5286; }
+  .btn-primary:active {
+    background-color: white;
+    color: #3d5286;
+    box-shadow: 0 4px 20px -5px #3d5286;
+    border-color: #3d5286; }
+  .btn-primary:focus {
+    background-color: white;
+    color: #3d5286;
+    box-shadow: 0 4px 20px -5px #3d5286;
+    border-color: #3d5286; }
 
 header, h2, h4 {
-  color: white;
-  background-color: #3d5286; }
+  background-color: #3d5286;
+  color: white; }
 
 #dashboard h5 {
   color: #3d5286;
@@ -69,16 +81,16 @@ header, h2, h4 {
     box-shadow: 0 4px 20px -5px #3d5286; }
 
 figcaption {
-  color: #3d5286;
-  background-color: white; }
+  background-color: white;
+  color: #3d5286; }
 
 .caja__title {
-  color: #3d5286;
-  background-color: white; }
+  background-color: white;
+  color: #3d5286; }
 
 .card-title {
-  color: #3d5286;
-  background-color: white; }
+  background-color: white;
+  color: #3d5286; }
 
 #cronograma th {
   color: #3d5286;
@@ -105,8 +117,8 @@ figcaption {
 #error {
   background-color: rgba(61, 81, 133, 0.1); }
   #error h1, #error h2, #error p {
-    color: #3d5286;
-    background-color: white; }
+    background-color: white;
+    color: #3d5286; }
   #error .error-template {
     padding: 2rem 1.5rem;
     text-align: center; }

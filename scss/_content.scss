@@ -28,7 +28,6 @@ main {
     @extend .btn;
     border: 0.2rem solid $secondColor!important;
     font-weight: 600
-    
 }
 
 .btn-primary {
@@ -36,8 +35,20 @@ main {
     border: 0.2rem solid white;
     box-shadow: $secondColor;
     &:hover {
-        background-color:$secondColor;
-        color: $mainColor;
+        @include blanco;
+        box-shadow: 0 4px 20px -5px $mainColor;
+        border-color: $mainColor;
+
+    }
+    &:active {
+        @include blanco;
+        box-shadow: 0 4px 20px -5px $mainColor;
+        border-color: $mainColor;
+    }
+    &:focus {
+        @include blanco;
+        box-shadow: 0 4px 20px -5px $mainColor;
+        border-color: $mainColor;
     }
 }
 
