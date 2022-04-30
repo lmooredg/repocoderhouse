@@ -16,6 +16,13 @@ nav {
       background-color: white !important;
       font-weight: bold; }
 
+main {
+  background-color: rgba(61, 81, 133, 0.1); }
+
+#disertadores p {
+  color: #3d5286;
+  background-color: white; }
+
 .btn, .btn-insc, .btn-primary, .btn-footer {
   background-color: #3d5286;
   color: white;
@@ -88,7 +95,7 @@ figcaption {
   text-decoration: none;
   color: #3d5286; }
   #cronograma a:hover {
-    color: #3d528630; }
+    color: white; }
 
 #cronograma td h4 {
   color: #3d5286;
@@ -96,7 +103,7 @@ figcaption {
   font-weight: 700; }
 
 #error {
-  background-color: #3d5286; }
+  background-color: rgba(61, 81, 133, 0.1); }
   #error h1, #error h2, #error p {
     color: #3d5286;
     background-color: white; }

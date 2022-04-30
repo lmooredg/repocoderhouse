@@ -2,7 +2,7 @@
 
 $mainColor:#3d5286;
 $secondColor:white;
-$mainColor03: #3d528630;
+$mainColor03: rgba(61, 81, 133, 0.1);
 
 
 //sizing
@@ -10,15 +10,14 @@ $mainColor03: #3d528630;
 
 //Fondos y Tipografias
 
-@mixin azul($theme: $mainColor) {
+@mixin azul {
     color: $secondColor;
     background-color: $mainColor;
     
 }
 
-@mixin blanco ($theme: $secondColor) {
+@mixin blanco {
     color: $mainColor;
     background-color: $secondColor;
-    
 }
 

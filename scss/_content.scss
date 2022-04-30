@@ -1,3 +1,15 @@
+main {
+    background-color: $mainColor03;
+}
+
+// DIsertadores
+
+#disertadores {
+    p {
+        @include blanco
+    }
+}
+
 // Botones
 .btn {
     background-color: $mainColor;
@@ -95,7 +107,7 @@ figcaption {
         text-decoration: none;
         color: $mainColor;
             &:hover {
-                color: $mainColor03;
+                color: $secondColor;
             }
         }
         td h4 {
@@ -108,7 +120,7 @@ figcaption {
 
 // Error 404
 #error {
-    background-color: $mainColor;
+    background-color: $mainColor03;
     h1, h2, p {
         @include blanco
     }
