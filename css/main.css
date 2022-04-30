@@ -95,6 +95,20 @@ figcaption {
   background-color: transparent;
   font-weight: 700; }
 
+#error {
+  background-color: #3d5286; }
+  #error h1, #error h2, #error p {
+    color: #3d5286;
+    background-color: white; }
+  #error .error-template {
+    padding: 2rem 1.5rem;
+    text-align: center; }
+  #error .error-actions {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem; }
+  #error .error-actions .btn, #error .error-actions .btn-insc, #error .error-actions .btn-primary, #error .error-actions .btn-footer {
+    margin-right: 1rem; }
+
 .btn-footer:hover {
   color: #3d5286;
   background-color: white; }
